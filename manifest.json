@@ -16,6 +16,7 @@
             "js": [
                 "js/jquery-2.2.4.min.js",
                 "js/content.js",
+                "js/ignore-whitespace.js",
                 "js/remove-ellipsis.js",
                 "js/expand-message.js",
                 "js/show-hide-comment.js",
@@ -30,8 +31,15 @@
             ]
         }
     ],
+    "background": {
+        "scripts": [
+            "js/ignore-whitespace-bg.js"
+        ]
+    },
     "homepage_url": "https://github.com/rockwillj/",
     "permissions": [
+        "webRequest",
+        "webRequestBlocking",
         "*://github.com/*",
         "*://gist.github.com/*"
     ]
