@@ -18,7 +18,8 @@
                 "js/content.js"
             ],
             "css": [
-                "css/content.css"
+                "css/content.css",
+                "css/tab-size.css"
             ]
         }
     ],
