@@ -16,7 +16,8 @@
             "js": [
                 "js/jquery-2.2.4.min.js",
                 "js/content.js",
-                "js/expand-message.js"
+                "js/expand-message.js",
+                "js/no-relative-time.js"
             ],
             "css": [
                 "css/content.css",
