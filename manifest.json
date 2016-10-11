@@ -18,6 +18,7 @@
                 "js/content.js",
                 "js/remove-ellipsis.js",
                 "js/expand-message.js",
+                "js/show-hide-comment.js",
                 "js/no-relative-time.js"
             ],
             "css": [
