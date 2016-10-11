@@ -19,7 +19,8 @@
             ],
             "css": [
                 "css/content.css",
-                "css/tab-size.css"
+                "css/tab-size.css",
+                "css/close-button-to-left.css"
             ]
         }
     ],
