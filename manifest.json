@@ -19,7 +19,8 @@
                 "js/remove-ellipsis.js",
                 "js/expand-message.js",
                 "js/show-hide-comment.js",
-                "js/no-relative-time.js"
+                "js/no-relative-time.js",
+                "js/open-diff-patch.js"
             ],
             "css": [
                 "css/content.css",
