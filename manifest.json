@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "GitHub Plus",
+    "version": "0.1",
+    "description": "Chrome extension to make a little better use of GitHub",
+    "icons": {
+        "128": "image/icon.png"
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": [
+                "https://github.com/*",
+                "https://gist.github.com/*"
+            ],
+            "js": [
+                "js/jquery-2.2.4.min.js",
+                "js/content.js"
+            ],
+            "css": [
+                "css/content.css"
+            ]
+        }
+    ],
+    "homepage_url": "https://github.com/rockwillj/",
+    "permissions": [
+        "*://github.com/*",
+        "*://gist.github.com/*"
+    ]
+}
