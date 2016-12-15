@@ -8,16 +8,6 @@
     },
     "content_scripts": [
         {
-            "run_at": "document_start",
-            "matches": [
-                "https://github.com/*",
-                "https://gist.github.com/*"
-            ],
-            "js": [
-                "js/liquid-design.js"
-            ]
-        },
-        {
             "run_at": "document_end",
             "matches": [
                 "https://github.com/*",
@@ -37,17 +27,14 @@
             ],
             "css": [
                 "css/content.css",
+                "css/liquid-design.css",
                 "css/tab-size.css",
                 "css/close-button-to-left.css"
             ]
         }
     ],
-    "web_accessible_resources": [
-        "css/liquid-design.css"
-    ],
     "background": {
         "scripts": [
-            "js/liquid-design-bg.js",
             "js/ignore-whitespace-bg.js"
         ]
     },
@@ -55,7 +42,6 @@
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "webNavigation",
         "*://github.com/*",
         "*://gist.github.com/*"
     ]

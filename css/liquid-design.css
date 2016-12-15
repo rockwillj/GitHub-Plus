@@ -1,5 +1,5 @@
 body {
-    min-width: 0;
+    min-width: 0 !important;
 }
 
 form {
@@ -12,7 +12,7 @@ textarea {
 }
 
 .container {
-    width: 100%;
+    width: 100% !important;
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -20,17 +20,11 @@ textarea {
 /* Profile (/username) */
 
 .container-lg {
-    max-width: none;
-}
-
-.vcard-avatar {
-    max-width: 233px;
+    max-width: none !important;
 }
 
 .vcard-avatar .avatar {
-    width: 100%;
     height: auto;
-    max-width: 233px;
 }
 
 .pinned-repo-item {
@@ -40,23 +34,13 @@ textarea {
 
 /* Repositories (/organization) */
 
-.org-sidebar {
-    width: 280px;
-}
 
-.org-main {
-    width: calc(100% - 312px); /* = 100% - sidebar - margin */
-}
-
-.repo-list-description {
-    max-width: none;
-}
 
 /* Issues (/organization/repository/issues),
     Pull requests (/organization/repository/pull) */
 
 .discussion-sidebar {
-    width: 200px;
+    width: 200px !important;
 }
 
 .discussion-timeline:not(.gist-discussion-timeline) {
@@ -64,19 +48,19 @@ textarea {
 }
 
 .timeline-new-comment {
-    max-width: none;
+    max-width: none !important;
 }
 
 /* Inline Comments (ex. /organization/repository/pull/123/files) */
 
 .inline-comments .inline-comment-form, .inline-comments .inline-comment-form-container {
-    max-width: none;
+    max-width: none !important;
 }
 
 /* Commits (/organization/repository/commits) */
 
 .commit-desc pre {
-    max-width: none;
+    max-width: none !important;
 }
 
 /* Contributors (/organization/repository/graphs/contributors) */
