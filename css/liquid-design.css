@@ -7,7 +7,6 @@ form {
 }
 
 textarea {
-    min-height: 0 !important;
     max-height: none !important;
 }
 
