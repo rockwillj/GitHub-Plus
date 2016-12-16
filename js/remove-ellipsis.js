@@ -8,6 +8,9 @@ $(document).bind("ghp:ready", function () {
             }
         }
         var $desc = $commit.children(".commit-desc").children("pre");
+        if (!$desc.text()) {
+            return;
+        }
 
         // set full title
         var preTitle = $(this).text().slice(0, -1);
