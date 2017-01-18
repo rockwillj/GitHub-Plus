@@ -1,0 +1,10 @@
+.tab-size[data-tab-size='2'],
+.tab-size[data-tab-size='4'],
+.tab-size[data-tab-size='8'],
+.inline-review-comment,
+.gist table.lines {
+    -webkit-tab-size: 4 !important;
+    -moz-tab-size: 4 !important;
+    -o-tab-size: 4 !important;
+    tab-size: 4 !important;
+}

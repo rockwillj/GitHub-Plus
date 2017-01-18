@@ -1,0 +1,89 @@
+body {
+    min-width: 0 !important;
+}
+
+form {
+    max-width: none !important;
+}
+
+textarea {
+    max-height: none !important;
+}
+
+.container {
+    width: 100% !important;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+/* Profile (/username) */
+
+.container-lg {
+    max-width: none !important;
+}
+
+.vcard-avatar .avatar {
+    height: auto;
+}
+
+.pinned-repo-item {
+    flex-grow: 1;
+    margin-right: 8px;
+}
+
+/* Repositories (/organization) */
+
+
+
+/* Issues (/organization/repository/issues),
+    Pull requests (/organization/repository/pull) */
+
+.discussion-sidebar {
+    width: 200px !important;
+}
+
+.discussion-timeline:not(.gist-discussion-timeline) {
+    width: calc(100% - 232px); /* = 100% - sidebar - margin */
+}
+
+.timeline-new-comment {
+    max-width: none !important;
+}
+
+/* Inline Comments (ex. /organization/repository/pull/123/files) */
+
+.inline-comments .inline-comment-form, .inline-comments .inline-comment-form-container {
+    max-width: none !important;
+}
+
+/* Commits (/organization/repository/commits) */
+
+.commit-desc pre {
+    max-width: none !important;
+}
+
+/* Contributors (/organization/repository/graphs/contributors) */
+
+.capped-card {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+/* Media Query */
+
+@media (max-width: 1920px) { /* WUXGA */
+}
+@media (max-width: 1600px) { /* UXGA */
+    .container { padding-left: 16px; padding-right: 16px; }
+    .discussion-timeline { width: calc(100% - 216px); }
+}
+@media (max-width: 1280px) { /* SXGA */
+}
+@media (max-width: 1024px) { /* XGA */
+    .container { padding-left: 8px; padding-right: 8px; }
+    .discussion-timeline { width: calc(100% - 208px); }
+}
+@media (max-width: 800px) { /* SVGA */
+}
+@media (max-width: 640px) { /* VGA */
+}

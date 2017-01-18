@@ -1,0 +1,22 @@
+.show-file-spaces {
+    display: inline-block;
+    margin-right: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.show-file-spaces a {
+    color: #333;
+}
+.show-file-spaces a:hover {
+    text-decoration: none;
+}
+.show-file-spaces a input[type="checkbox"] {
+    cursor: default;
+}
+
+.open-diff-patch {
+    font-weight: bold;
+    color: #767676;
+}
