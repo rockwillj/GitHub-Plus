@@ -2,6 +2,9 @@ $(document).bind("ghp:ready", function () {
     var keywords = "WIP, DNM".split(",");
 
     var $input = $(".gh-header-edit input#issue_title");
+    if (!$input.length) {
+        return;
+    }
     updateMergeButtonEnabled($input.val());
     $(".gh-header-edit button[type='submit']").click(function (event) {
         updateMergeButtonEnabled($input.val());
