@@ -1,11 +1,13 @@
-var input;
-if(input === undefined){
-  doThis();
-} else {
-  doThat();
-}
+if (false) {
+    var input;
+    if(input === undefined){
+        doThis();
+    } else {
+        doThat();
+    }
 
-if (true) {
-  var x = 5;
+    if (true) {
+        var x = 5;
+    }
+    console.log(x);
 }
-console.log(x);
