@@ -1,10 +1,10 @@
 $(document).bind('ghp:ready', function () {
     var href = location.href;
-    var isShowSpaces = !/[?&]w=/.test(href);
+    var isShowSpaces = !/[?&]w=(1|true)/.test(href);
     if (isShowSpaces) {
-        href += (href.indexOf('?') == -1 ? '?' : '&') + 'w=';
+        href += (href.indexOf('?') == -1 ? '?' : '&') + 'w=1';
     } else {
-        href = href.replace(/([?&])w=/, '$1w=off');
+        href = href.replace(/([?&])w=(1|true)/, '$1w=0');
     }
     var checked = isShowSpaces ? 'checked="checked" ' : '';
 

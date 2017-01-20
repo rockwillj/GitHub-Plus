@@ -8,17 +8,17 @@ chrome.webRequest.onBeforeRequest.addListener(
         }
 
         var url = details.url;
-        if (/[?&]w=off/.test(url)) {
-            if (url.indexOf('?w=off&') != -1) {
-                url = url.replace('?w=off&', '?');
+        if (/[?&]w=0/.test(url)) {
+            if (url.indexOf('?w=0&') != -1) {
+                url = url.replace('?w=0&', '?');
             } else {
-                url = url.replace(/[?&]w=off[^&]*/, '');
+                url = url.replace(/[?&]w=0[^&]*/, '');
             }
             forceToShowSpacesOnce = true;
-        } else if (/[?&]w=/.test(url)) {
+        } else if (/[?&]w=(1|true)/.test(url)) {
             return {};
         } else {
-            url += (url.indexOf('?') == -1 ? '?' : '&') + 'w=';
+            url += (url.indexOf('?') == -1 ? '?' : '&') + 'w=1';
         }
         return { redirectUrl: url };
     },
