@@ -5,5 +5,7 @@ if(input === undefined){
   doThat();
 }
 
-var x = 5;
+if (true) {
+  var x = 5;
+}
 console.log(x);
