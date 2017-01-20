@@ -1,4 +1,4 @@
-if (false) {
+if (true) {
 	var input;
 	if(input === undefined){
 		doThis();
