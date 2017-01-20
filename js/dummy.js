@@ -4,3 +4,6 @@ if(input === undefined){
 } else {
   doThat();
 }
+
+var x = 5;
+console.log(x);
