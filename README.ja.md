@@ -9,7 +9,7 @@ GitHub が少しだけ使いやすくなる Chrome 拡張です。
 
 ## インストール
 
-* Chrome ウェブストア (近日公開)
+* [Chrome ウェブストア](https://chrome.google.com/webstore/detail/github-plus/lndphafdikhmpgopmchckooegfnifafm)
 
 ## 機能
 

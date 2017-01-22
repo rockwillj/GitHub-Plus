@@ -9,7 +9,7 @@ It provides 10 and a few features for now.
 
 ## Install
 
-* Chrome Web Store (coming soon)
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/github-plus/lndphafdikhmpgopmchckooegfnifafm)
 
 ## Features
 
