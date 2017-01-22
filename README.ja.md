@@ -13,19 +13,19 @@ GitHub が少しだけ使いやすくなる Chrome 拡張です。
 
 ## 機能
 
-1. リキッドデザイン
-2. 空白の無視
-3. タブ幅の変更
-4. コミットログの展開
-5. 省略記号 (…) の除去
-6. ローカルタイム表示
-7. 全コメントの表示/非表示
-8. WIP のマージ禁止
-9. Close ボタンを左寄せ
-10. 素早く引用
-11. diff/patch ファイル
+1. [リキッドデザイン](#liquid_design)
+2. [空白の無視](#ignore_whitespaces)
+3. [タブ幅の変更](#change_tab_size)
+4. [コミットログの展開](#expand_commit_messages)
+5. [省略記号 (…) の除去](#remove_ellipsis)
+6. [ローカルタイム表示](#no_relative_time)
+7. [全コメントの表示/非表示](#show_hide_all_comments)
+8. [WIP のマージ禁止](#do_not_merge_wip)
+9. [Close ボタンを左寄せ](#close_button_to_left)
+10. [素早く引用](#quick_quoting)
+11. [diff/patch ファイル](#diff_patch_file)
 
-### 1. リキッドデザイン
+### <a name="liquid_design">1. リキッドデザイン
 
 #### Before
 
@@ -38,7 +38,7 @@ GitHub が少しだけ使いやすくなる Chrome 拡張です。
 GitHub サイトにリキッドデザインを適用します。
 ページコンテンツがウィンドウ幅まで広がります。
 
-### 2. 空白の無視
+### <a name="ignore_whitespaces">2. 空白の無視
 
 #### Before
 
@@ -51,7 +51,7 @@ GitHub サイトにリキッドデザインを適用します。
 ファイル変更などで差分を見るときに空白を無視します。
 `Show spaces` をチェックすると一時的に空白の差分が表示されます。
 
-### 3. タブ幅の変更
+### <a name="change_tab_size">3. タブ幅の変更
 
 #### Before
 
@@ -63,7 +63,7 @@ GitHub サイトにリキッドデザインを適用します。
 
 読みやすくするためソースコードのタブ幅をデフォルトの `8` から `4` に変更します。
 
-### 4. コミットログの展開
+### <a name="expand_commit_messages">4. コミットログの展開
 
 #### Before
 
@@ -75,7 +75,7 @@ GitHub サイトにリキッドデザインを適用します。
 
 デフォルトで折り畳まれて表示されるコミットログを全て展開します。
 
-### 5. 省略記号 (…) の除去
+### <a name="remove_ellipsis">5. 省略記号 (…) の除去
 
 #### Before
 
@@ -88,7 +88,7 @@ GitHub サイトにリキッドデザインを適用します。
 コミットログのタイトル (1行目) が長い場合に省略されないように、
 省略記号 (`…`) を除去して分割されたタイトルを結合して表示します。
 
-### 6. ローカルタイム表示
+### <a name="no_relative_time">6. ローカルタイム表示
 
 #### Before
 
@@ -101,7 +101,7 @@ GitHub サイトにリキッドデザインを適用します。
 相対的なコミット日時 (例：`2 hours ago`, `5 days ago`) をローカルタイム (例：`Jan 17, 2017`) で表示します。
 ローカルタイムの日時文字列をホバーすると相対的な日時がポップアップ表示されます。
 
-### 7. 全コメントの表示/非表示
+### <a name="show_hide_all_comments">7. 全コメントの表示/非表示
 
 #### "Show all outdated" ボタン
 
@@ -113,7 +113,7 @@ GitHub サイトにリキッドデザインを適用します。
 
 PR の全レビューコメントを一括で表示/非表示にするボタンがテキストボックス下に配置されます。
 
-### 8. WIP のマージ禁止
+### <a name="do_not_merge_wip">8. WIP のマージ禁止
 
 ![Do Not Merge WIP](image/8_Do_Not_Merge_WIP.png)
 
@@ -124,13 +124,13 @@ PR タイトルに以下のキーワードが含まれていると `Merge pull r
 
 ※ 大文字小文字は区別されるため `wip` や `dnm` はキーワード対象外です。
 
-### 9. Close ボタンを左寄せ
+### <a name="close_button_to_left">9. Close ボタンを左寄せ
 
 ![Close Button to Left](image/9_Close_Button_to_Left.png)
 
 押し間違えを防ぐために PR / Issue ページ最下部の `Close` ボタンを左寄せにします。
 
-### 10. 素早く引用
+### <a name="quick_quoting">10. 素早く引用
 
 ![Quick Quoting](image/10_Quick_Quoting.png)
 
@@ -139,7 +139,7 @@ PR タイトルに以下のキーワードが含まれていると `Merge pull r
 
 ※ 文字列を範囲選択して `r` (reply) キーを押したときと同じ挙動になります。
 
-### 11. diff/patch ファイル
+### <a name="diff_patch_file">11. diff/patch ファイル
 
 PR ページのサイドバーに PR の変更内容を `DIFF` / `PATCH` 形式で表示するリンクが追加されます。
 

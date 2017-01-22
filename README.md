@@ -13,19 +13,19 @@ It provides 10 and a few features for now.
 
 ## Features
 
-1. Liquid Design
-2. Ignore Whitespaces
-3. Change Tab Size
-4. Expand Commit Messages
-5. Remove Ellipsis…
-6. No Relative Time
-7. Show/Hide All Comments
-8. Do Not Merge WIP
-9. Close Button to Left
-10. Quick Quoting
-11. diff/patch file
+1. [Liquid Design](#liquid_design)
+2. [Ignore Whitespaces](#ignore_whitespaces)
+3. [Change Tab Size](#change_tab_size)
+4. [Expand Commit Messages](#expand_commit_messages)
+5. [Remove Ellipsis…](#remove_ellipsis)
+6. [No Relative Time](#no_relative_time)
+7. [Show/Hide All Comments](#show_hide_all_comments)
+8. [Do Not Merge WIP](#do_not_merge_wip)
+9. [Close Button to Left](#close_button_to_left)
+10. [Quick Quoting](#quick_quoting)
+11. [diff/patch file](#diff_patch_file)
 
-### 1. Liquid Design
+### <a name="liquid_design">1. Liquid Design
 
 #### Before
 
@@ -38,7 +38,7 @@ It provides 10 and a few features for now.
 Apply liquid design to GitHub site.
 Page content expands to window width.
 
-### 2. Ignore Whitespaces
+### <a name="ignore_whitespaces">2. Ignore Whitespaces
 
 #### Before
 
@@ -51,7 +51,7 @@ Page content expands to window width.
 Ignore Whitespaces when seeing diff in file changes and so on.
 Checking `Show spaces`, whitespaces in diff will be shown temporary.
 
-### 3. Change Tab Size
+### <a name="change_tab_size">3. Change Tab Size
 
 #### Before
 
@@ -63,7 +63,7 @@ Checking `Show spaces`, whitespaces in diff will be shown temporary.
 
 Change tab size (width) in source code, from default `8` to `4` for more readability.
 
-### 4. Expand Commit Messages
+### <a name="expand_commit_messages">4. Expand Commit Messages
 
 #### Before
 
@@ -75,7 +75,7 @@ Change tab size (width) in source code, from default `8` to `4` for more readabi
 
 Expand all commit messages that are shown collapsed in default.
 
-### 5. Remove Ellipsis…
+### <a name="remove_ellipsis">5. Remove Ellipsis…
 
 #### Before
 
@@ -88,7 +88,7 @@ Expand all commit messages that are shown collapsed in default.
 Remove ellipsis (`…`) from a message and concat split titles
 so that long title (the first line) of commit message will not be omitted.
 
-### 6. No Relative Time
+### <a name="no_relative_time">6. No Relative Time
 
 #### Before
 
@@ -101,7 +101,7 @@ so that long title (the first line) of commit message will not be omitted.
 Replace relative commit date time (ex. `2 hours ago`, `5 days ago`) with local date time (ex. `Jan 17, 2017`).
 Relative date time will pop up by hovering local date time text.
 
-### 7. Show/Hide All Comments
+### <a name="show_hide_all_comments">7. Show/Hide All Comments
 
 #### "Show all outdated" Button
 
@@ -113,7 +113,7 @@ Relative date time will pop up by hovering local date time text.
 
 Place the button to show/hide all comments in PR under the text box.
 
-### 8. Do Not Merge WIP
+### <a name="do_not_merge_wip">8. Do Not Merge WIP
 
 ![Do Not Merge WIP](image/8_Do_Not_Merge_WIP.png)
 
@@ -124,13 +124,13 @@ Place the button to show/hide all comments in PR under the text box.
 
 \* Note: keywords is case-sensitive so `wip` and `dnm` are not matched.
 
-### 9. Close Button to Left
+### <a name="close_button_to_left">9. Close Button to Left
 
 ![Close Button to Left](image/9_Close_Button_to_Left.png)
 
 Move `Close` button to left at the bottom of PR / Issue page to prevent from pressing it accidentally.
 
-### 10. Quick Quoting
+### <a name="quick_quoting">10. Quick Quoting
 
 ![Quick Quoting](image/10_Quick_Quoting.png)
 
@@ -139,7 +139,7 @@ it will be inserted in quoted state in the text box.
 
 \* Note: It is same behavior when pressing `r` (reply) key after selecting range of strings.
 
-### 11. diff/patch file
+### <a name="diff_patch_file">11. diff/patch file
 
 ![diff/patch file](image/11_diff_patch_file.png)
 
