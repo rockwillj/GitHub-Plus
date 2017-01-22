@@ -141,6 +141,8 @@ PR タイトルに以下のキーワードが含まれていると `Merge pull r
 
 ### <a name="diff_patch_file">11. diff/patch ファイル
 
+![diff/patch file](image/11_diff_patch_file.png)
+
 PR ページのサイドバーに PR の変更内容を `DIFF` / `PATCH` 形式で表示するリンクが追加されます。
 
 ## フィードバック
