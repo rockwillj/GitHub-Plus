@@ -145,8 +145,8 @@ PR ページのサイドバーに PR の変更内容を `DIFF` / `PATCH` 形式�
 
 ## フィードバック
 
-* [Issues](/rockwillj/githubplus/issues) (日本語 OK)
-* [Pull Requests](/rockwillj/githubplus/pulls) (日本語 OK)
+* [Issues](https://github.com/rockwillj/GitHub-Plus/issues) (日本語 OK)
+* [Pull Requests](https://github.com/rockwillj/GitHub-Plus/pulls) (日本語 OK)
 
 ## Copyright & License
 

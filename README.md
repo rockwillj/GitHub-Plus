@@ -137,7 +137,7 @@ Move `Close` button to left at the bottom of PR / Issue page to prevent from pre
 Selecting range of strings and pressing `Insert a quote` button,
 it will be inserted in quoted state in the text box.
 
-\* Note: It is same behavior when pressing `r` (replay) key after selecting range of strings.
+\* Note: It is same behavior when pressing `r` (reply) key after selecting range of strings.
 
 ### 11. diff/patch file
 
@@ -147,8 +147,8 @@ Add links to show PR changes in `DIFF` / `PATCH` format at PR page sidebar.
 
 ## Feedback
 
-* [Issues](/rockwillj/githubplus/issues)
-* [Pull Requests](/rockwillj/githubplus/pulls)
+* [Issues](https://github.com/rockwillj/GitHub-Plus/issues)
+* [Pull Requests](https://github.com/rockwillj/GitHub-Plus/pulls)
 
 ## Copyright & License
 
