@@ -51,7 +51,7 @@ GitHub サイトにリキッドデザインを適用します。
 ファイル変更などで差分を見るときに空白を無視します。
 `Show spaces` をチェックすると一時的に空白の差分が表示されます。
 
-※ 注： GitHub の仕様 (あるいはバグ) により、空白を無視した状態だと
+※ 注： GitHub の仕様により、空白を無視した状態だと
 <img src="image/octicon-plus.png" alt="Plus" width="16"/>
 ボタンが表示されなくなり行にコメントが残せなくなるようです。
 `Show spaces` をチェックしてこの機能を一時的に無効にするとボタンが表示されます。
@@ -152,7 +152,7 @@ PR ページのサイドバーに PR の変更内容を `DIFF` / `PATCH` 形式�
 
 ## 既知の問題
 
-- 「空白の無視」により diff に <img src="image/octicon-plus.png" alt="Plus" width="16"/> ボタンが表示されなくなる (GitHub の仕様あるいはバグ)
+- 「空白の無視」により diff に <img src="image/octicon-plus.png" alt="Plus" width="16"/> ボタンが表示されなくなる (GitHub の仕様)
   - `Show spaces` をチェックしてこの機能を一時的に無効にするとボタンが表示される
 
 ## フィードバック

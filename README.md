@@ -51,7 +51,7 @@ Page content expands to window width.
 Ignore Whitespaces when seeing diff in file changes and so on.
 Checking `Show spaces`, whitespaces in diff will be shown temporary.
 
-\* Note: Doe to GitHub implementation (or bug), in ignoring whitespaces,
+\* Note: Doe to GitHub behavior, in ignoring whitespaces,
 <img src="image/octicon-plus.png" alt="Plus" width="16"/>
 button is not shown and you cannot insert a comment to the line.
 Checking `Show spaces` to disable the feature temporarily, the button will be shown.
@@ -152,7 +152,7 @@ Add links to show PR changes in `DIFF` / `PATCH` format at PR page sidebar.
 
 ## Known Issues
 
-- In "Ignore Whitespaces" <img src="image/octicon-plus.png" alt="Plus" width="16"/> button is not shown (GitHub implementation or bug)
+- In "Ignore Whitespaces" <img src="image/octicon-plus.png" alt="Plus" width="16"/> button is not shown (GitHub behavior)
   - Checking `Show spaces` to disable the feature temporarily, the button will be shown
 
 ## Feedback
